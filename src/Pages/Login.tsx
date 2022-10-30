@@ -29,7 +29,7 @@ export default function Login() {
           <button type="submit" className="btn btn-primary button">
             Acessar
           </button>
-          
+          <a href="/Createuser">CRIAR USUARIO</a>
         </Form>
         
       </LoginForm>
