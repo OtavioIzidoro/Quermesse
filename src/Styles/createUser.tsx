@@ -12,28 +12,40 @@ align-items: center;
 
 
 export const CreateUserForm= styled.div`
-width: 50%;
-height: 70%;
+width: 25%;
+height: 80%;
 background: #fff;
+border-radius: 30px 0 30px 0;
 
 `
 
 export const FormCreateUser = styled.div`
-width: 35vw;
-height: 50vh;
+width: 25vw;
+height: 65vh;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: center; 
 align-items: center;
-
-.formSenha{
-  margin-top:15px;
-}
-.button{
-  margin-top:10px
-}
-.form{
-  width:20rem
-}
+gap:20px;
 
 `
+
+export const AccountAlready = styled.h1`
+font-size:12px;
+color: #B7B7C3;
+margin-left: 40px;
+`
+
+export const Conteudo = styled.div`
+margin: 54px 0 0 40px 
+`
+
+export const SignUp = styled.h1`
+font-size:24px;
+`
+
+export const ReturnLogin = styled.a`
+color: #3FC2D4;
+
+`
+
